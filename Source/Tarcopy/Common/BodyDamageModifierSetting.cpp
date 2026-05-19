@@ -1,0 +1,2 @@
+﻿#include "Common/BodyDamageModifierSetting.h"
+

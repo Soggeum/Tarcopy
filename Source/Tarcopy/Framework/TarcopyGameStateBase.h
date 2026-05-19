@@ -14,4 +14,7 @@ class TARCOPY_API ATarcopyGameStateBase : public AGameStateBase
 {
 	GENERATED_BODY()
 	
+public:
+	UFUNCTION(BlueprintCallable)
+	void GoToTitle();
 };

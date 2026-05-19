@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.7",
+	"EngineAssociation": "{D14040E3-4518-2995-5CF8-1B94BA91FE12}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -9,7 +9,12 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"UMG",
+				"ChaosVehicles",
+				"EnhancedInput",
+				"CoreUObject",
+				"AIModule"
 			]
 		}
 	],
@@ -20,6 +25,26 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "ChaosVehiclesPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "EOSVoiceChat",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true
+		},
+		{
+			"Name": "EOSVoiceChatPTT",
+			"Enabled": true
 		}
 	]
 }

@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "EOS Voice Chat PTT",
+  "Description": "EOS Voice Chat PTT subsystem",
+  "Category": "Online",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Modules": [
+    {
+      "Name": "EOSVoiceChatPTT",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    { "Name": "EnhancedInput", "Enabled": true },
+    { "Name": "OnlineSubsystem", "Enabled": true },
+    { "Name": "OnlineSubsystemUtils", "Enabled": true },
+    { "Name": "OnlineSubsystemEOS", "Enabled": true },
+    { "Name": "EOSShared", "Enabled": true },
+    { "Name": "AudioCapture", "Enabled": true }
+  ]
+}
